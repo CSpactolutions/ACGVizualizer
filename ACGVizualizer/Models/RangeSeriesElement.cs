@@ -87,6 +87,7 @@ namespace ACGVizualizer.Models
                 if (w != null)
                 {
                     Idle = new Rectangle((int)(w.HoldTime * hScale), Height, Brushes.Yellow);
+
                     if(w.CallTime == 0)
                     {
                         Active = new Rectangle((int)(1 * hScale), Height, Brushes.Green, (int)(w.HoldTime * hScale));

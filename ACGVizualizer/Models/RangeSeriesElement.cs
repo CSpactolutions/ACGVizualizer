@@ -87,7 +87,13 @@ namespace ACGVizualizer.Models
                 if (w != null)
                 {
                     Idle = new Rectangle((int)(w.HoldTime * hScale), Height, Brushes.Yellow);
-                    Active = new Rectangle((int)(w.CallTime * hScale) + 1, Height, Brushes.Green, (int)(w.HoldTime * hScale));
+                    if(w.CallTime == 0)
+                    {
+                        Active = new Rectangle((int)(1 * hScale), Height, Brushes.Green, (int)(w.HoldTime * hScale));
+                    } else
+                    {
+                        Active = new Rectangle((int)(w.CallTime * hScale), Height, Brushes.Green, (int)(w.HoldTime * hScale));
+                    }
                 }
             }
             else if (entry.CallData[entry.CallData.Count - 1].EventType?.Type == QueueEvent.EventType.COMPLETECALLER)

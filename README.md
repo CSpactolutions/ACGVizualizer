@@ -29,4 +29,4 @@ If you encounter any issues while using the program, try the following:
 
 ## License
 
-This program is licensed under the MIT license. See the [LICENSE](/ACGVizualizer/.license) file for more information.
+This program is licensed under the MIT license. See the [LICENSE](/license.md) file for more information.

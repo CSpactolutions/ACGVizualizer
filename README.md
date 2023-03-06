@@ -6,7 +6,7 @@ This program takes a log file and plots it in a Cartesian coordinate system, whe
 
 To install the program, follow these steps:
 
-1. Download the latest release version from the [releases page](https://github.com/user/repo/releases).
+1. Download the latest release version from the [releases page](https://github.com/CSpactolutions/ACGVizualizer/releases/).
 2. Extract the Archive .
 3. Launch the program from the ACGVizualizer.exe file .
 
